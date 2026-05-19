@@ -148,3 +148,58 @@ defer завантаження важких JS модулів, prefetch наст
 ---
 
 ## 🗂 Структура проекту
+
+## 🚀 Запуск
+
+```bash
+npm install
+npm run dev
+npm run build
+```
+
+### Змінні середовища (.env)
+
+```env
+# Anthropic
+ANTHROPIC_API_KEY=
+
+# Firebase
+VITE_FIREBASE_API_KEY=
+VITE_FIREBASE_AUTH_DOMAIN=
+VITE_FIREBASE_PROJECT_ID=
+VITE_FIREBASE_STORAGE_BUCKET=
+VITE_FIREBASE_MESSAGING_SENDER_ID=
+VITE_FIREBASE_APP_ID=
+FIREBASE_PROJECT_ID=
+FIREBASE_SERVICE_ACCOUNT_KEY=
+
+# Stripe
+VITE_STRIPE_PUBLISHABLE_KEY=
+STRIPE_SECRET_KEY=
+STRIPE_WEBHOOK_SECRET=
+
+# Vercel
+ALLOWED_ORIGIN=https://www.mojinspektor.pl
+VERCEL_ENV=production
+```
+
+---
+
+## 📈 SEO
+
+- Meta теги (title, description, keywords, og:*)
+- Canonical URL
+- sitemap.xml зареєстрований у Google Search Console
+- Лендинг /about оптимізований під пошукові запити
+
+---
+
+## 📝 Ліцензія
+
+Проект є комерційним продуктом. Код публікується виключно для портфоліо.
+Використання коду або контенту без дозволу автора заборонено.
+
+---
+
+*Створено людиною яка особисто пройшла співбесіду на Карту поляка та Сталий побут —
+і знає що питає інспектор насправді.*
