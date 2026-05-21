@@ -1,6 +1,6 @@
 # MójInspektor 🦅
 
-> PWA-застосунок для підготовки до співбесіди на **Карту поляка**, **Сталий побут** та державного іспиту з польської мови **B1**
+> PWA app for preparing for interviews for the **Karta Polaka**, **permanent residence (Stały pobyt)**, and the Polish language **B1** state exam
 
 [![React](https://img.shields.io/badge/React-18-blue)](https://react.dev)
 [![Vite](https://img.shields.io/badge/Vite-5-purple)](https://vitejs.dev)
@@ -11,145 +11,145 @@
 [![Vercel](https://img.shields.io/badge/Deploy-Vercel-black)](https://vercel.com)
 [![Lighthouse](https://img.shields.io/badge/Lighthouse-99%2F100-brightgreen)](#)
 
-## 🔗 Демо
+## 🔗 Demo
 
 **[mojinspektor.pl](https://www.mojinspektor.pl)**
 
 ---
 
-## 📖 Історія проекту
+## 📖 Project story
 
-Застосунок створено людиною яка особисто пройшла співбесіду на Карту поляка та Сталий побут.
-Під час підготовки вся корисна інформація була розкидана по різних джерелах — жодного інструменту
-який показував би як виглядає реальна співбесіда зсередини.
+The app was built by someone who personally went through the Karta Polaka and permanent residence interviews.
+While preparing, all useful information was scattered across different sources — there was no tool
+that showed what a real interview looks like from the inside.
 
-Спочатку застосунок створювався для власних братів щоб допомогти їм підготуватися.
-Потім перетворився на повноцінний продукт для всіх хто проходить цей шлях.
+At first, the app was created for the author’s brothers to help them prepare.
+It then grew into a full product for everyone on this path.
 
-**Реальні результати:** дружина автора склала B1 на 99.7/100 балів.
-Автор отримав позитивне рішення по Карті сталого побуту.
-
----
-
-## 📱 Про застосунок
-
-MójInspektor — єдиний AI-тренажер який симулює реальну співбесіду з інспектором.
-Інспектор будує родовід по ланцюжку поколінь — саме так як це відбувається на справжньому екзамені.
-
-### Для кого
-- Українці та білоруси які готуються до **Карти поляка**
-- Люди які оформляють **Сталий побут** (zezwolenie na pobyt stały)
-- Всі хто складає держіспит з польської мови **B1**
+**Real results:** the author’s wife scored 99.7/100 on the B1 exam.
+The author received a positive decision on permanent residence (Karta stałego pobytu).
 
 ---
 
-## ✨ Функціонал
+## 📱 About the app
 
-### 🃏 Флешкартки
-- 500+ питань по 9 темах з реальних співбесід
-- Двомовний режим: питання українською або польською
-- Відстеження прогресу по кожній темі окремо
-- Стріки та статистика правильних відповідей
+MójInspektor is the only AI trainer that simulates a real interview with an inspector.
+The inspector builds a family tree generation by generation — just like on the actual exam.
 
-### 👨‍💼 AI-інспектор
-- Повна симуляція реальної співбесіди з інспектором
-- Два режими: **Karta Polaka** та **Stały pobyt**
-- Інспектор веде розмову лише польською — як на справжньому екзамені
-- Будує родовід по ланцюжку поколінь (ім'я, місце народження, робота, смерть)
-- Фази: знайомство → родовід → мова → культура → історія → протокол
-- Система порушень: 3 попередження → завершення співбесіди
-- Фінальна оцінка по 4 критеріях у форматі протоколу
-- Таймер 90 хвилин для Premium (як на реальному екзамені)
-
-### 🎓 Пробний іспит B1
-- Повна симуляція державного іспиту з 5 частин
-- Реальні дані з офіційних PDF іспитів 2025 року (лютий, квітень, червень)
-- Офіційні MP3 аудіозаписи для розуміння на слух
-- Таймер для кожної частини окремо
-- AI-перевірка письмових завдань з детальною оцінкою
-- Мікрофон для усної частини (Web Speech API)
-- Підрахунок балів та вердикт: склав / не склав
-
-### 📚 Практика B1 по частинах
-- Аудіювання, читання, граматика, письмо, говоріння — окремо
-- AI-перевірка письма по 4 критеріях з балами
-- Рольові ігри для говоріння (лікар, орендодавець, банк)
-- Реальні тексти та завдання з офіційних іспитів
-
-### 💳 Freemium монетизація
-- Безкоштовно: перші картки кожної теми, 2 симуляції інспектора, 1 частина пробного іспиту
-- Premium: **49.99 zł/місяць** — повний доступ, скасувати будь-коли
-- Stripe Checkout з підтримкою карток та Klarna
-- Stripe Customer Portal для управління підпискою
+### Who it’s for
+- Ukrainians and Belarusians preparing for the **Karta Polaka**
+- People applying for **permanent residence** (zezwolenie na pobyt stały)
+- Anyone taking the Polish **B1** state exam
 
 ---
 
-## 🛠 Технічний стек
+## ✨ Features
+
+### 🃏 Flashcards
+- 500+ questions across 9 topics from real interviews
+- Bilingual mode: questions in Ukrainian or Polish
+- Progress tracking per topic
+- Streaks and correct-answer statistics
+
+### 👨‍💼 AI inspector
+- Full simulation of a real inspector interview
+- Two modes: **Karta Polaka** and **Stały pobyt**
+- The inspector speaks only Polish — like on the real exam
+- Builds a family tree by generation (name, birthplace, occupation, death)
+- Phases: introduction → family tree → language → culture → history → protocol
+- Violation system: 3 warnings → interview ends
+- Final score on 4 criteria in protocol format
+- 90-minute timer for Premium (like the real exam)
+
+### 🎓 B1 mock exam
+- Full simulation of the state exam with 5 parts
+- Real data from official 2025 exam PDFs (February, April, June)
+- Official MP3 audio for listening comprehension
+- Separate timer for each part
+- AI grading of writing tasks with detailed feedback
+- Microphone for the speaking section (Web Speech API)
+- Score calculation and pass/fail verdict
+
+### 📚 B1 practice by section
+- Listening, reading, grammar, writing, speaking — separately
+- AI writing review on 4 criteria with scores
+- Role-play for speaking (doctor, landlord, bank)
+- Real texts and tasks from official exams
+
+### 💳 Freemium monetization
+- Free: first cards in each topic, 2 inspector simulations, 1 part of the mock exam
+- Premium: **49.99 PLN/month** — full access, cancel anytime
+- Stripe Checkout with cards and Klarna
+- Stripe Customer Portal for subscription management
+
+---
+
+## 🛠 Tech stack
 
 ### Frontend
-- **React 18** — UI компоненти, хуки, lazy loading
-- **Vite 5** — збірка, code splitting, tree shaking
-- **TailwindCSS** — мобільний дизайн, mobile-first
-- **React Router v6** — SPA навігація
-- **Zustand** — глобальний стан з персистентністю в localStorage
-- **PWA** — Service Worker, встановлення на головний екран
+- **React 18** — UI components, hooks, lazy loading
+- **Vite 5** — build, code splitting, tree shaking
+- **TailwindCSS** — mobile-first design
+- **React Router v6** — SPA navigation
+- **Zustand** — global state persisted in localStorage
+- **PWA** — Service Worker, install to home screen
 
 ### Backend (Vercel Serverless Functions)
-- **`/api/claude-proxy`** — проксі до Anthropic API, rate limiting через Firestore
-- **`/api/stripe-webhook`** — обробка платежів, активація Premium
-- **`/api/verify-payment`** — верифікація сесії оплати, захист від replay-атак
-- **`/api/check-access`** — перевірка Premium статусу через Firebase
-- **`/api/stripe-portal`** — Stripe Customer Portal для управління підпискою
+- **`/api/claude-proxy`** — Anthropic API proxy, rate limiting via Firestore
+- **`/api/stripe-webhook`** — payment handling, Premium activation
+- **`/api/verify-payment`** — payment session verification, replay-attack protection
+- **`/api/check-access`** — Premium status check via Firebase
+- **`/api/stripe-portal`** — Stripe Customer Portal for subscription management
 
-### Сервіси
-- **Anthropic Claude** — AI-інспектор, перевірка письма, усна частина
-- **Firebase Auth** — email/password автентифікація
-- **Firebase Firestore** — прогрес користувачів, аналітика, rate limiting
-- **Stripe** — підписки, webhooks, Customer Portal
-- **Vercel** — деплой, Edge Network, Environment Variables
-
----
-
-## 🔐 Безпека
-
-- API ключі виключно на сервері — клієнт їх не бачить
-- CORS перевірка Origin на всіх API endpoints
-- Rate limiting через Firestore — виживає після cold start Vercel
-- Stripe webhook підпис `stripe-signature` — захист від підробки
-- Replay-attack захист для платежів — sessionId в Firestore
-- Firestore Rules — користувач читає тільки свої дані
-- CSP заголовки, X-Frame-Options: DENY, X-Content-Type-Options
+### Services
+- **Anthropic Claude** — AI inspector, writing review, speaking section
+- **Firebase Auth** — email/password authentication
+- **Firebase Firestore** — user progress, analytics, rate limiting
+- **Stripe** — subscriptions, webhooks, Customer Portal
+- **Vercel** — deploy, Edge Network, environment variables
 
 ---
 
-## 📊 Аналітика
+## 🔐 Security
 
-Власна система аналітики через Firestore — без сторонніх сервісів:
-- `view_paywall` — перегляд сторінки оплати
-- `begin_checkout` — початок оплати
-- `purchase` — успішна оплата
-- `start_inspector` — початок симуляції
-- `complete_mock_exam` — завершення пробного іспиту
+- API keys only on the server — never exposed to the client
+- CORS Origin checks on all API endpoints
+- Rate limiting via Firestore — survives Vercel cold starts
+- Stripe webhook `stripe-signature` verification — tamper protection
+- Replay-attack protection for payments — sessionId in Firestore
+- Firestore Rules — users can only read their own data
+- CSP headers, X-Frame-Options: DENY, X-Content-Type-Options
 
 ---
 
-## ⚡ Продуктивність
+## 📊 Analytics
 
-| Метрика | Результат |
+Custom analytics via Firestore — no third-party trackers:
+- `view_paywall` — paywall page view
+- `begin_checkout` — checkout started
+- `purchase` — successful payment
+- `start_inspector` — simulation started
+- `complete_mock_exam` — mock exam completed
+
+---
+
+## ⚡ Performance
+
+| Metric | Result |
 |---|---|
 | Lighthouse Performance (desktop) | **99/100** |
 | Lighthouse Performance (mobile) | **82/100** |
 | Lighthouse SEO | **100/100** |
 | Lighthouse Accessibility | **88/100** |
 
-Оптимізації: lazy loading сторінок, code splitting по вендорах і data файлах,
-defer завантаження важких JS модулів, prefetch наступних маршрутів.
+Optimizations: lazy-loaded pages, code splitting by vendor and data files,
+deferred loading of heavy JS modules, prefetch of upcoming routes.
 
 ---
 
-## 🗂 Структура проекту
+## 🗂 Project structure
 
-## 🚀 Запуск
+## 🚀 Getting started
 
 ```bash
 npm install
@@ -157,7 +157,7 @@ npm run dev
 npm run build
 ```
 
-### Змінні середовища (.env)
+### Environment variables (.env)
 
 ```env
 # Anthropic
@@ -187,19 +187,19 @@ VERCEL_ENV=production
 
 ## 📈 SEO
 
-- Meta теги (title, description, keywords, og:*)
+- Meta tags (title, description, keywords, og:*)
 - Canonical URL
-- sitemap.xml зареєстрований у Google Search Console
-- Лендинг /about оптимізований під пошукові запити
+- sitemap.xml registered in Google Search Console
+- /about landing page optimized for search queries
 
 ---
 
-## 📝 Ліцензія
+## 📝 License
 
-Проект є комерційним продуктом. Код публікується виключно для портфоліо.
-Використання коду або контенту без дозволу автора заборонено.
+This is a commercial product. Code is published for portfolio purposes only.
+Use of the code or content without the author’s permission is prohibited.
 
 ---
 
-*Створено людиною яка особисто пройшла співбесіду на Карту поляка та Сталий побут —
-і знає що питає інспектор насправді.*
+*Built by someone who personally went through the Karta Polaka and permanent residence interviews —
+and knows what the inspector actually asks.*
